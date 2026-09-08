@@ -1,0 +1,13 @@
+{
+  "name": "harf-arabic-reading-trainer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A local-first Arabic reading trainer with keyboard-friendly romanization.",
+  "scripts": {
+    "start": "node tools/serve.cjs",
+    "build": "node tools/build.cjs",
+    "test": "node --test tests/*.test.cjs"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}
